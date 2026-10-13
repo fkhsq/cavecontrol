@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cavecontrol",
+  "version": "${version}",
+
+  "name": "CaveControl",
+  "description": "一个为 Minecraft 1.20.1 大幅精简地下洞穴的 Fabric 模组。移除传统小洞穴（cave carvers）与面条状小洞穴（spaghetti/noodle noise caves），深层矿洞改为概率门控生成：触发点平均间隔约两百多格，触发时复用原版奶酪洞形状逻辑并大幅缩小体积（中空腔与极小空腔两种尺寸），矿洞间隔远大于矿洞本身，且已地表封顶（竖井入口消失、深层隧道移除，需自行挖掘进入），极大幅降低大峡谷出现密度（约万分之一），稀疏化废弃矿井生成，移除地下小型岩浆池（保留岩浆泉与深层大岩浆湖）。",
+  "authors": ["CaveControl Developer"],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+
+  "entrypoints": {
+    "main": [
+      "com.cavecontrol.CaveControlMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17"
+  }
+}

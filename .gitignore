@@ -1,0 +1,18 @@
+# 构建产物
+build/
+bin/
+
+# Gradle 缓存
+.gradle/
+
+# 开发运行目录（测试世界、日志、临时文件）
+run/
+
+# IDE 文件
+.idea/
+.vscode/
+*.iml
+
+# 系统文件
+Thumbs.db
+.DS_Store
